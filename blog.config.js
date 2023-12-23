@@ -1,6 +1,6 @@
 const BLOG = {
-  title: 'Notionic',
-  author: '左蓝',
+  title: 'Hsinchu',
+  author: 'Leoeis',
   email: 'i@zuolan.me',
   link: 'https://zuolan.me',
   newsletter: 'Notionic Weekly',
@@ -23,7 +23,7 @@ const BLOG = {
     books: true,
     friends: true
   },
-  showWeChatPay: true,
+  showWeChatPay: false,
   previewImagesEnabled: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
@@ -34,7 +34,7 @@ const BLOG = {
     telegram: 'https://t.me/zuolan'
   },
   seo: {
-    keywords: ['Notionic', 'Zuolan', 'Blog'],
+    keywords: ['', 'Leoeis', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
